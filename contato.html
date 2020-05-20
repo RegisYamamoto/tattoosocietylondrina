@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+
+<html lang ="pt-br">
+
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width">
+    <meta name="description" content="O TATTOO SOCIETY LONDRINA é um estúdio de tatuagem localizado bem no centro de Londrina. Contamos com 5 tatuadores. Tatuadores: - Lucas Paliarini - Chris Yamamoto - Stéphanie Camargo - Thaís Politi - Priscila Trevisan Para orçamentos e dúvidas, mande-nos uma mensagem inbox ou ligue no estúdio (43) 3039-0321" />
+
+	<title>Tattoo Society Londrina - Uma Arte Corporal</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+	<link rel="shortcut icon" href="img/favicon.ico" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+</head>
+
+<body>
+	<div class="container">
+        <!-- HEADER -->
+		<header>
+			<div class="logo"><img src="img/logo.png" alt="logo" /></div>
+		</header>
+
+
+        <!-- NAVBAR MOBILE -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#"><img src="img/logo.png"></a>
+            
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="o_estudio.html">O Estúdio <span class="sr-only">(current)</span></a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Tatuadores</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="contato.html" tabindex="-1" aria-disabled="true">Entre em contato</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+
+        <!-- Contato -->
+        <article class="contato" id="contato">
+            <div class="contato">
+                <div class="row">
+                    <div class="col col-lg-4">
+                        <p>Envie sua mensagem, ou entre em contato pelo telefone ou email abaixo.</p>
+
+                        <address>
+                            <p>(43) 3039 0321</p></br>
+                                
+                            <p>tattoosocietylondrina@gmail.com</p>
+                        </address>
+                    </div><!-- end col -->
+
+                    <div class="col-lg-8">
+                        <form action="envia-contato.php" class="form-horizontal" method="post" enctype="multipart/form-data"><!-- enctype para enviar anexo -->
+                            <div class="form-group">
+                                <label for="nome" class="col-lg-2 control-label">Nome</label>
+                                <div class="col-lg-10">
+                                    <input type="text" class="form-control" name="nome" placeholder="Digite seu nome">
+                                </div><!-- end col -->
+                            </div><!-- end form-group -->
+
+                            <div class="form-group">
+                                <label for="email" class="col-lg-2 control-label">Email</label>
+                                <div class="col-lg-10">
+                                    <input type="text" class="form-control" name="email" placeholder="Digite seu email">
+                                </div><!-- end form-group -->
+                            </div><!-- end form-group -->
+
+                            <div class="form-group">
+                                <label for="assunto" class="col-lg-2 control-label">Assunto</label>
+                                <div class="col-lg-10">
+                                    <input type="text" class="form-control" name="assunto" placeholder="Digite o assunto">
+                                </div><!-- end col --> 
+                            </div><!-- end form-group -->
+                                                        
+                            <div class="form-group">
+                                <label for="mensagem" class="col-lg-2 control-label">Mensagem</label>
+                                <div class="col-lg-10">
+                                    <textarea name="mensagem" name="mensagem" class="form-control" cols="20" rows="4" placeholder="Digite sua mensagem"></textarea>
+                                </div><!-- end col -->
+                            </div><!-- end form-control -->
+                                                        
+                            <div class="form-group">
+                                <label for="assunto" class="col-lg-2 control-label">Arquivo</label>
+                                <div class="col-lg-10">
+                                    <input type="file" class="form-control" name="arquivo" >
+                                </div><!-- end col --> 
+                            </div><!-- end form-group -->
+
+                            <div class="form-group">
+                                <div class="col-lg-10 col-lg-offset-2">
+                                    <button type="submit" class="btn btn-primary">Enviar</button>
+                                </div><!-- end col -->
+                            </div><!-- end form-group -->
+                        </form>
+                    </div><!-- end col -->
+                </div><!-- end row -->
+            </div>
+        </article>
+
+
+        <!-- NAV -->
+        <nav class="nav-main">
+            <ul>
+                <li><a href="index.html">Tatuadores</a></li>
+                <li><a href="estudio.html">O Estúdio</a></li>
+                <li><a href="contato.html">Entre em Contato</a></li>
+            </ul>
+        </nav>
+
+
+        <!-- SECTION social -->
+        <section class="social">
+            <a href="https://www.instagram.com/tattoosocietylondrina/" target="_blank"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+            <a href="https://www.youtube.com/channel/UC3cYL14aUru_eWuKLXoEssA" target="_blank"><i class="fa fa-youtube-play fa-2x" aria-hidden="true"></i></a>
+            <a href="https://www.facebook.com/tattoosocietylondrina/" target="_blank"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a>
+        </sesction>
+	</div><!-- end container -->
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+
+</html>
